@@ -23,7 +23,7 @@ export class MainLayout extends Layout {
         <header slot="navbar" theme="dark" class="sidemenu-header">
           <vaadin-drawer-toggle></vaadin-drawer-toggle>
           <h1>${appStore.currentViewTitle}</h1>
-          <vaadin-avatar class="ms-auto me-m"></vaadin-avatar>
+          <vaadin-avatar class="mx-auto mr-4"></vaadin-avatar>
         </header>
 
         <div slot="drawer" class="sidemenu-menu">
